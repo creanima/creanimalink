@@ -8,7 +8,7 @@
     --comment:#6272a4;
     --purple:#bd93f9;
     --white:#f8f8f2;
-    --pink:#ff79c6;
+    --pink:#ecc8b2;
 }
 
 body{
@@ -44,7 +44,7 @@ footer{
     color: var(--pink);
 
     font-family: var(--font);
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 400;
 
     text-align: center;
@@ -52,6 +52,7 @@ footer{
 
     line-height: 1.25;
     display: block;
+    animation: color-change 5s infinite alternate;
 }
 
 #links{
@@ -79,9 +80,10 @@ footer{
 
     text-align: center;
     text-decoration: none;
+    letter-spacing: 0.3rem;
     
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    
+
 }
 
 .link:hover{
@@ -94,3 +96,38 @@ a {
     text-decoration: inherit; /* no underline */
   
 }
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: #8e44ad;
+    }
+    20% {
+      color: #1abc9c;
+    }
+    30% {
+      color: #d35400;
+    }
+    40% {
+      color: blue;
+    }
+    50% {
+      color: #34495e;
+    }
+    60% {
+      color: blue;
+    }
+    70% {
+      color: #2980b9;
+    }
+    80% {
+      color: #f1c40f;
+    }
+    90% {
+      color: #2980b9;
+    }
+    100% {
+      color: pink;
+    }
+  }
