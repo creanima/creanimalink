@@ -52,7 +52,7 @@ footer{
 
     line-height: 1.25;
     display: block;
-    animation: color-change 5s infinite alternate;
+    animation: color-change 20s infinite alternate;
 }
 
 #links{
@@ -98,10 +98,10 @@ a {
 }
 @keyframes color-change {
     0% {
-      color: blue;
+      color: rgb(252, 255, 104);
     }
     10% {
-      color: #8e44ad;
+      color: #b35ada;
     }
     20% {
       color: #1abc9c;
@@ -110,22 +110,22 @@ a {
       color: #d35400;
     }
     40% {
-      color: blue;
+      color: rgb(214, 16, 138);
     }
     50% {
-      color: #34495e;
+      color: #3d6994;
     }
     60% {
-      color: blue;
+      color: rgb(13, 219, 168);
     }
     70% {
-      color: #2980b9;
+      color: #23c3eb;
     }
     80% {
-      color: #f1c40f;
+      color: #f3d663;
     }
     90% {
-      color: #2980b9;
+      color: #52aeeb;
     }
     100% {
       color: pink;
