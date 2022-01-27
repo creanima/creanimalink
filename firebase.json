@@ -8,9 +8,13 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "**",
-      //"destination": "/index.html"
-      "dynamicLinks": true
-    }]
+        "source": "assets/**",
+        "dynamicLinks": false
+      },
+      {
+        "source": "**",
+        "dynamicLinks": true
+      }
+    ]
   }
 }
