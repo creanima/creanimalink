@@ -7,15 +7,9 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "dynamicLinks": true
-      },
-      {
-        "source": "assets/**",
-        "dynamicLinks": false
-      }
-    ]
+    "rewrites": [{
+      "source": "**",
+      "dynamicLinks": true
+    }]
   }
 }
