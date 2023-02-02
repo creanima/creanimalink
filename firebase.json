@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "mofti-link",
     "public": "dist",
     "ignore": [
       "firebase.json",

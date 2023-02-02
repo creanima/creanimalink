@@ -14,13 +14,12 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCp9SY1rvj_mxUomDDUSUZBu5Mlh6EgA9g",
-  authDomain: "mofti-link.firebaseapp.com",
-  projectId: "mofti-link",
-  storageBucket: "mofti-link.appspot.com",
-  messagingSenderId: "647114463708",
-  appId: "1:647114463708:web:be44275dca55b171519719",
-  measurementId: "G-KSG23HCB45"
+  apiKey: "AIzaSyATCBez9DlpGHDetixU7haGctyTRdD_IxM",
+  authDomain: "creanima-link.firebaseapp.com",
+  projectId: "creanima-link",
+  storageBucket: "creanima-link.appspot.com",
+  messagingSenderId: "341561401033",
+  appId: "1:341561401033:web:a40ee00bde76bd96a57718"
 };
 
 // Initialize Firebase
