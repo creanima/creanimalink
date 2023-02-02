@@ -98,7 +98,7 @@ a {
 }
 @keyframes color-change {
     0% {
-      color: rgb(252, 255, 104);
+      color: rgb(12, 240, 153);
     }
     10% {
       color: #b35ada;
@@ -107,13 +107,13 @@ a {
       color: #1abc9c;
     }
     30% {
-      color: #d35400;
+      color: #d6ec10;
     }
     40% {
-      color: rgb(214, 16, 138);
+      color: rgb(181, 9, 204);
     }
     50% {
-      color: #3d6994;
+      color: #0590ec;
     }
     60% {
       color: rgb(13, 219, 168);
@@ -122,12 +122,12 @@ a {
       color: #23c3eb;
     }
     80% {
-      color: #f3d663;
+      color: #2ee66b;
     }
     90% {
       color: #52aeeb;
     }
     100% {
-      color: pink;
+      color: rgb(228, 48, 153);
     }
   }
