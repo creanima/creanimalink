@@ -3,10 +3,10 @@
 :root {
     --font: 'Fira Sans', sans-serif;
     
-    --background: #282a36;
-    --selection:#44475a;
-    --comment:#6272a4;
-    --purple:#bd93f9;
+    --background: #c8c8c8;
+    --selection:#88b7ae;
+    --comment:#008573;
+    --purple:#008573;
     --white:#f8f8f2;
     --pink:#ecc8b2;
 }
